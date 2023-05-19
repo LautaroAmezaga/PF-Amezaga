@@ -1,0 +1,13 @@
+/* Adaptable(Responsivo) */
+
+@media screen and (max-width:767px) {
+    .navbar-brand{
+        display: none;
+    }
+
+}
+@media screen and (max-width:767px) {
+    .c-usuario{
+        display: none;
+    }
+}

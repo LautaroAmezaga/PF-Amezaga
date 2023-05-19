@@ -1,0 +1,82 @@
+/* Barra de navegacion */
+.navbar {
+  padding: 0.5rem;
+  background-color: black;
+}
+.navbar .navbar-collapse {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos Globales */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion-titulo {
+  font-size: 2.5rem;
+}
+
+/* Adaptable(Responsivo) */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-usuario {
+    display: none;
+  }
+}
+/* Presentacion */
+.c-item {
+  height: 480px;
+}
+.c-item .c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+/* Seccion Productos */
+.productos {
+  padding: 40px 40px 20px 40px;
+}
+.productos img {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  display: block;
+  transition: all 0.2s ease;
+  border-radius: 10px;
+}
+.productos .productos-contenedor {
+  padding-top: 0.5rem;
+  margin-bottom: 20px;
+}
+
+/* Seccion Productos en oferta */
+.productos-oferta {
+  padding: 20px 40px 40px 40px;
+}
+.productos-oferta img {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  display: block;
+  transition: all 0.2s ease;
+  border-radius: 10px;
+}
+.productos-oferta .productos-contenedor {
+  padding-top: 0.5rem;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
