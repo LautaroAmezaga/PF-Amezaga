@@ -19,9 +19,9 @@ section{
 
 .btn-carrito{
     border-radius: 1rem;
-    background-color: black;
+    background-color: $primary-color;
   }
   .seccion-oscura{
-    color: white;
-    background-color: #0f2624;
+    color: $secondary-color;
+    background-color: $tertiary-color;
   }
