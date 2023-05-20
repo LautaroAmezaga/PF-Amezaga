@@ -21,9 +21,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS Css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 <body class="d-flex flex-column h-100">
-  <header>
     <!-- Barra de navegacion -->
     <nav class="navbar sticky-top navbar-expand-md" data-bs-theme="dark">
         <div class="container-fluid">
@@ -65,13 +68,36 @@
         </div>
         </div>
     </nav>
-  </header>
   <!-- Seccion Nosotros -->
-  <section>
-
+  <section class="">
+    <div class="container text-center animate__animated animate__backInDown">
+      <h1 class="text-center seccion-titulo mb-4">Nosotros</h1>
+      <div>
+       <h2>NUESTRA MISIÓN</h2>
+       <p>Nuestra misión es llevar la yerba mate al mundo a través de productos de calidad. Nos esforzamos por almacenar solo productos sostenibles y de origen ético. Comprar en Matero debería darle la confianza de que está contribuyendo a un mundo mejor.
+          
+        La yerba mate es más que la bebida. Durante generaciones ha sido una parte importante de la tradición, la cultura y la comunicación en América del Sur. Reúne a la gente. A través de la educación y brindando los mejores productos, compartiremos y transmitiremos estas tradiciones.
+        </p>
+        <h2>NUESTRA VISIÓN </h2>
+        <p>Ruido de mate, se trata de reunir a la gente y disfrutar de la compañía del otro con un trago de yerba mate. Creemos que lo que hacemos teje un tejido de relaciones y experiencias positivas que comienza con nuestros productos y se extiende por todo el mundo.
+          
+          Ofrecemos productos frescos, de origen ético y sostenibles a nuestros clientes, así como educación sobre los orígenes y la cultura del mate.
+        </p>
+        <h2>NUESTROS VALORES</h2>
+        <p>
+          Mantener altos estándares éticos y profesionales, junto con apertura y transparencia.
+          
+          Honrar la dignidad, la inclusión y la diversidad de los demás.
+          
+          Brinda lo mejor en todo yerba mate.
+          
+          Valorar la experiencia del cliente y el servicio. 
+        </p>
+    </div>
+    </div>
   </section>
   <!-- Pie de pagina  -->
-  <footer class="mt-auto">
+  <footer class=" pt-mt-auto md">
     <div class="footer-texto seccion-oscura text-center">Buscanos en las Redes</div>
     <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
       <a href="#"><i class="bi bi-twitter"></i></a>
@@ -82,5 +108,8 @@
   </footer>
     <!-- Js de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+    <!-- js de AOS Css -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>  
+  </body>
 </html>
